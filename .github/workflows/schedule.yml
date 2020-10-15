@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '0 0 1 * *'
 name: Excavator
 jobs:
   excavate:
@@ -11,6 +11,6 @@ jobs:
     - name: Excavate
       uses: Ash258/Scoop-GithubActions@stable
       env:
-        GITH_EMAIL: youremail@email.com
+        GITH_EMAIL: 38106927+owlzou@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'

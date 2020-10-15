@@ -1,0 +1,33 @@
+{
+    "version": "3.2.1",
+    "description": "APNG、WebP converter",
+    "homepage": "https://github.com/iSparta/iSparta",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iSparta/iSparta/releases/download/v3.2.1/isparta-3.2.1-win.zip",
+            "hash": "1CCA1DF9074BEDED2DA6C91EFF3E29963F98692E66A0684DB01114E949D11A7C"
+        }
+    },
+    "innosetup": false,
+    "bin": "isparta.exe",
+    "shortcuts": [
+        [
+            "isparta.exe",
+            "isparta"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/iSparta/iSparta"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iSparta/iSparta/releases/download/v$version/isparta-$version-win.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/iSparta/iSparta/releases/download/v$version/isparta-$version-ia32-win.zip"
+            }
+        }
+    }
+}

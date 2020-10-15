@@ -1,0 +1,46 @@
+{
+    "##":"todo: 如何保留程序运行后生成的设置文件",
+    "version": "2.71",
+    "description": "MusicPlayer2 is an audio player which with a collection of music playback, lyrics display, format conversion and many other functions.",
+    "homepage": "https://github.com/zhongyang219/MusicPlayer2/",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/zhongyang219/MusicPlayer2/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.71/MusicPlayer2_V2.71_x64.7z",
+            "hash": "8BC5590F1B3ED7072A7A49C1EFC11B89BC87DD46EB8CD3E779A7337C26E72C1B",
+            "extract_dir": "MusicPlayer2_x64"
+        },
+        "32bit": {
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.71/MusicPlayer2_V2.71_x86.7z",
+            "hash": "5699F106F61166AC6A973E1DA1194BF7AC10E3A4DBB462558675A6F1EF7C3C22",
+            "extract_dir": "MusicPlayer2_x86"
+        }
+    },
+    "innosetup": false,
+    "bin": "MusicPlayer2.exe",
+    "shortcuts": [
+        [
+            "MusicPlayer2.exe",
+            "MusicPlayer2"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zhongyang219/MusicPlayer2/"
+    },
+    "persist": [
+        "playlist"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V$version/MusicPlayer2_$version_x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V$version/MusicPlayer2_$version_x86.7z"
+            }
+        }
+    }
+}

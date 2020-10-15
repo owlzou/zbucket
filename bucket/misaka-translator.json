@@ -1,0 +1,27 @@
+{
+    "##": "not tested",
+    "version": "2.7",
+    "description": "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具",
+    "homepage": "https://github.com/hanmin0822/MisakaTranslator",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/hanmin0822/MisakaTranslator/blob/master/LICENSE"
+    },
+    "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/2.7/MisakaTranslator.2.7.rar",
+    "hash": "E4A52A2BE741782005404F1BA524C0B89A83ED1AB676A0DBDB3CB827D31E6C7C",
+    "extract_dir": "Release",
+    "innosetup": false,
+    "bin": "MisakaTranslator.exe",
+    "shortcuts": [
+        [
+            "MisakaTranslator.exe",
+            "MisakaTranslator"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hanmin0822/MisakaTranslator/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/hanmin0822/MisakaTranslator/releases/download/$version/MisakaTranslator.$version.rar"
+    }
+}

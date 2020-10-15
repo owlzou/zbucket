@@ -1,0 +1,16 @@
+{
+    "version": "0.0.6",
+    "description": "One tool for Windows folder icon batch modify. | 一个批量修改 Windows 文件夹图标的小工具。 ",
+    "homepage": "https://github.com/fengyunkkx/FolderIconTool/",
+    "license": "Unknown",
+    "url": "https://github.com/fengyunkkx/FolderIconTool/releases/download/0.0.6/FolderIconTool.0.0.6.exe",
+    "hash": "70B0BF1DEEE744D37561A71825957438883DB19CAC3640C2E59DB3983C2079A2",
+    "innosetup": false,
+    "bin": [
+        "FolderIconTool.0.0.6.exe",
+        "foldericontool"
+    ],
+    "checkver": {
+        "github": "https://github.com/fengyunkkx/FolderIconTool/"
+    }
+}
