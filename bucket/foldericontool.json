@@ -7,8 +7,10 @@
     "hash": "70B0BF1DEEE744D37561A71825957438883DB19CAC3640C2E59DB3983C2079A2",
     "innosetup": false,
     "bin": [
-        "FolderIconTool.0.0.6.exe",
-        "foldericontool"
+        "foldericontool.exe"
+    ],
+     "pre_install": [
+        "Rename-Item  -Path \"$dir\\FolderIconTool.$($version).exe\" -NewName foldericontool.exe"
     ],
     "checkver": {
         "github": "https://github.com/fengyunkkx/FolderIconTool/"
