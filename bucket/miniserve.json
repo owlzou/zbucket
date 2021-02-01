@@ -1,13 +1,13 @@
 {
-    "version": "0.10.3",
+    "version": "0.10.4",
     "description": "🌟 For when you really just want to serve some files over HTTP right now!",
     "homepage": "https://github.com/svenstaro/miniserve",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/svenstaro/miniserve/blob/master/LICENSE"
     },
-    "url": "https://github.com/svenstaro/miniserve/releases/download/v0.10.3/miniserve-v0.10.3-windows-x86_64.exe",
-    "hash": "62a962a1fd100a4f8a7edc724d2a1b2ba9c8748c0604f4a0afbf065cf85da63c",
+    "url": "https://github.com/svenstaro/miniserve/releases/download/v0.10.4/miniserve-v0.10.4-windows-x86_64.exe",
+    "hash": "79a2963a9042cb2f589eb1bce303bbb92d81346c2c9d7cd49b2de20761739701",
     "innosetup": false,
     "bin": [
         [
