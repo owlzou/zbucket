@@ -1,13 +1,13 @@
 {
-    "version": "5.3.8",
+    "version": "5.4.0",
     "description": "Automation Utility - Recorder & Script Generator",
     "homepage": "https://github.com/Pulover/PuloversMacroCreator",
     "license": {
         "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/Pulover/PuloversMacroCreator/blob/master/License.txt"
     },
-    "url": "https://github.com/Pulover/PuloversMacroCreator/releases/download/v5.3.8/PuloversMacroCreator-Portable.zip",
-    "hash": "7f6dde64ab6f9e4a0da18a366476a5659718263ebd5b3a7d488f1a4765698256",
+    "url": "https://github.com/Pulover/PuloversMacroCreator/releases/download/v5.4.0/PuloversMacroCreator-Portable.zip",
+    "hash": "e5d1af7dcc40d37f554a808224d932dac328f99c3db23c4a184c19e015f94670",
     "architecture": {
         "64bit": {
             "extract_dir": "MacroCreatorPortable/x64/MacroCreator"
