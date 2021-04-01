@@ -1,13 +1,13 @@
 {
-    "version": "1.4.3",
+    "version": "1.5.0",
     "description": "A flexible level editor",
     "homepage": "https://www.mapeditor.org/",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://github.com/bjorn/tiled/blob/master/COPYING/"
     },
-    "url": "https://github.com/bjorn/tiled/releases/download/v1.4.3/Tiled-1.4.3-win64.msi",
-    "hash": "99bb2490c2e3480039cda79b270e258e55fb3cf624164734b69333267dfbda7b",
+    "url": "https://github.com/bjorn/tiled/releases/download/v1.5.0/Tiled-1.5.0-win64.msi",
+    "hash": "6c04d0e6660467ff74b3f521117c278f9536cfd4536f1b9d1917092a3a6fd0ea",
     "innosetup": false,
     "extract_dir": "PFiles/Tiled",
     "bin": "tiled.exe",
