@@ -20,6 +20,6 @@
         "github": "https://github.com/svenstaro/miniserve/"
     },
     "autoupdate": {
-        "url": "https://github.com/svenstaro/miniserve/releases/download/v$version/miniserve-v$version-windows-x86_64.exe"
+        "url": "https://github.com/svenstaro/miniserve/releases/download/v$version/miniserve-v$version-x86_64-pc-windows-msvc.exe"
     }
 }
