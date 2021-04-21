@@ -11,7 +11,6 @@
     "hash": "E4A52A2BE741782005404F1BA524C0B89A83ED1AB676A0DBDB3CB827D31E6C7C",
     "extract_dir": "Release",
     "innosetup": false,
-    "bin": "MisakaTranslator.exe",
     "shortcuts": [
         [
             "MisakaTranslator.exe",

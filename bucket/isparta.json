@@ -10,7 +10,6 @@
         }
     },
     "innosetup": false,
-    "bin": "isparta.exe",
     "shortcuts": [
         [
             "isparta.exe",

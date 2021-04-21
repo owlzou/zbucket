@@ -11,8 +11,5 @@
     ],
      "pre_install": [
         "Rename-Item  -Path \"$dir\\FolderIconTool.$($version).exe\" -NewName foldericontool.exe"
-    ],
-    "checkver": {
-        "github": "https://github.com/fengyunkkx/FolderIconTool/"
-    }
+    ]
 }

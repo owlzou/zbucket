@@ -1,17 +1,12 @@
 {
-    "version": "0.1.0",
+	"##":"预留位，未开始使用。",
+    "version": "0.1.1",
     "description": "A simple note app.",
     "homepage": "https://github.com/owlzou/BubbleNote",
     "license": "Unknown",
     "url": "https://github.com/owlzou/BubbleNote/releases/download/v0.1.0/bubble-note_win.7z",
     "hash": "FB7411D926E150D1428E3B22F0C227BEED25F990573D8794A775924A80233E15",
     "innosetup": false,
-    "bin": [
-        [
-            "bubble-note.exe",
-            "bubble-note"
-        ]
-    ],
     "shortcuts": [
         [
             "bubble-note.exe",
@@ -26,8 +21,5 @@
     ],
     "persist": [
         "data"
-    ],
-    "checkver": {
-        "github": "https://github.com/owlzou/BubbleNote"
-    }
+    ]
 }

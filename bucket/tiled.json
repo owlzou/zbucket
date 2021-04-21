@@ -10,7 +10,6 @@
     "hash": "6c04d0e6660467ff74b3f521117c278f9536cfd4536f1b9d1917092a3a6fd0ea",
     "innosetup": false,
     "extract_dir": "PFiles/Tiled",
-    "bin": "tiled.exe",
     "shortcuts": [
         [
             "tiled.exe",

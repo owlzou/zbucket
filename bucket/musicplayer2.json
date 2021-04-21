@@ -12,15 +12,9 @@
             "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.72/MusicPlayer2_V2.72_x64.7z",
             "hash": "295fa9eb87dd3387a2df8743b36faf015e4dd8c12fea23b8b759d5c489c70239",
             "extract_dir": "MusicPlayer2_x64"
-        },
-        "32bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.72/MusicPlayer2_V2.72_x86.7z",
-            "hash": "0b83ecde903e67bc56112f2d9b557b63127dd84c20ba6c71b61ee7f7342059ec",
-            "extract_dir": "MusicPlayer2_x86"
         }
     },
     "innosetup": false,
-    "bin": "MusicPlayer2.exe",
     "shortcuts": [
         [
             "MusicPlayer2.exe",
@@ -35,9 +29,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V$version/MusicPlayer2_V$version_x64.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V$version/MusicPlayer2_V$version_x86.7z"
             }
         }
     }

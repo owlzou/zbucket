@@ -17,7 +17,6 @@
         }
     },
     "innosetup": false,
-    "bin": "MacroCreator.exe",
     "shortcuts": [
         [
             "MacroCreator.exe",

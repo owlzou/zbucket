@@ -9,7 +9,6 @@
     "url": "https://github.com/VictorZakharov/pinwin/releases/download/v0.2.5/PinWin_v0.2.5_binaries.zip",
     "hash": "A2484DF8A4EA4DBA849B4633013388962D7482DF431755108414B0246660FCF4",
     "innosetup": false,
-    "bin": "PinWin.exe",
     "shortcuts": [
         [
             "PinWin.exe",
