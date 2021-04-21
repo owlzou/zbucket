@@ -1,6 +1,6 @@
 {
-    "##":"todo: 如何保留程序运行后生成的设置文件",
-    "version": "2.71",
+    "##": "todo: 如何保留程序运行后生成的设置文件",
+    "version": "2.72",
     "description": "MusicPlayer2 is an audio player which with a collection of music playback, lyrics display, format conversion and many other functions.",
     "homepage": "https://github.com/zhongyang219/MusicPlayer2/",
     "license": {
@@ -9,13 +9,13 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.71/MusicPlayer2_V2.71_x64.7z",
-            "hash": "8BC5590F1B3ED7072A7A49C1EFC11B89BC87DD46EB8CD3E779A7337C26E72C1B",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.72/MusicPlayer2_V2.72_x64.7z",
+            "hash": "295fa9eb87dd3387a2df8743b36faf015e4dd8c12fea23b8b759d5c489c70239",
             "extract_dir": "MusicPlayer2_x64"
         },
         "32bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.71/MusicPlayer2_V2.71_x86.7z",
-            "hash": "5699F106F61166AC6A973E1DA1194BF7AC10E3A4DBB462558675A6F1EF7C3C22",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.72/MusicPlayer2_V2.72_x86.7z",
+            "hash": "0b83ecde903e67bc56112f2d9b557b63127dd84c20ba6c71b61ee7f7342059ec",
             "extract_dir": "MusicPlayer2_x86"
         }
     },
@@ -30,9 +30,7 @@
     "checkver": {
         "github": "https://github.com/zhongyang219/MusicPlayer2/"
     },
-    "persist": [
-        "playlist"
-    ],
+    "persist": "playlist",
     "autoupdate": {
         "architecture": {
             "64bit": {
