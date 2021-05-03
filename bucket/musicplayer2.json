@@ -24,7 +24,7 @@
     "checkver": {
         "github": "https://github.com/zhongyang219/MusicPlayer2/"
     },
-    "persist": "playlist",
+    "persist": ["playlist","song_data.dat"],
     "autoupdate": {
         "architecture": {
             "64bit": {

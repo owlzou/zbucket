@@ -15,7 +15,7 @@
             "miniserve"
         ]
     ],
-    "pre_install": "Rename-Item  -Path \"$dir\\miniserve-v$($version)-windows-x86_64.exe\" -NewName miniserve.exe",
+    "pre_install": "Rename-Item  -Path \"$dir\\miniserve-v$version-x86_64-pc-windows-msvc.exe\" -NewName miniserve.exe",
     "checkver": {
         "github": "https://github.com/svenstaro/miniserve/"
     },
