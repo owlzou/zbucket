@@ -1,0 +1,23 @@
+{
+    "version": "1.6",
+    "description": "FlashPad是一款轻便的笔记工具。",
+    "homepage": "http://www.haoxg.net/tools.html",
+    "license": "Unknown",
+    "url": "http://www.haoxg.net/download/flashpad.zip",
+    "hash": "8BC64DAD69C0CA0954898ECF8CED0F73C9CCC6FED391C30ED9086914D3823583",
+    "innosetup": false,
+    "bin": "FlashPad.exe",
+    "shortcuts": [
+        [
+            "FlashPad.exe",
+            "FlashPad"
+        ]
+    ],
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\Config.ini\")) { New-Item \"$dir\\Config.ini\" -ItemType File | Out-Null }"
+    ],
+    "persist": [
+        "Data",
+        "Config.ini"
+    ]
+}
