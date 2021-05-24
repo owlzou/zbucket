@@ -1,0 +1,24 @@
+{
+    "version": "3.1.2",
+    "description": "A Strong, Fast and Flexible Pixiv Client based on .NET Core and WPF ",
+    "homepage": "https://github.com/dylech30th/Pixeval",
+    "license": {
+        "identifier": "AGPL-3.0-or-later",
+        "url": "https://github.com/dylech30th/Pixeval/blob/master/LICENSE"
+    },
+    "url": "https://github.com/dylech30th/Pixeval/releases/download/3.1.2/Pixeval.zip",
+    "hash": "B2A946AFCC6F0308C6C5869276329830E18CC872B89100321CC6BE1B53CD1B68",
+    "innosetup": false,
+    "shortcuts": [
+        [
+            "Pixeval/Pixeval.exe",
+            "Pixeval"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/dylech30th/Pixeval"
+    },
+    "autoupdate": {
+        "url": "https://github.com/dylech30th/Pixeval/releases/download/$version/Pixeval.zip"
+    }
+}
